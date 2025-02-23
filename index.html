@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sindhu Kodati - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/lucide-icons/dist/umd/lucide-icons.min.js">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">SK</a>
+            <div class="nav-links" id="navLinks">
+                <button class="close-menu" onclick="toggleMenu()">✕</button>
+                <a href="#about" onclick="toggleMenu()">About</a>
+                <a href="#education" onclick="toggleMenu()">Education</a>
+                <a href="#skills" onclick="toggleMenu()">Skills</a>
+                <a href="#projects" onclick="toggleMenu()">Projects</a>
+                <a href="#experience" onclick="toggleMenu()">Experience</a>
+                <a href="#certifications" onclick="toggleMenu()">Certifications</a>
+                <a href="#contact" onclick="toggleMenu()">Contact</a>
+            </div>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+ <button id="theme-toggle">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Sindhu Kodati</h1>
+            <p class="subtitle">Software Engineer</p>
+            <p class="description">Specializing in AI/ML, Cloud Computing, and Full Stack Development</p>
+            <div class="social-links">
+                <a href="https://github.com/sindhukodati" class="social-link">
+                    <i data-lucide="github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sindhukodati/" class="social-link">
+                    <i data-lucide="linkedin"></i>
+                </a>
+                <a href="mailto:sindhukodati08@gmail.com" class="social-link">
+                    <i data-lucide="mail"></i>
+                </a>
+
+            </div>
+<div class="resume-container">
+    <a href="https://drive.google.com/file/d/1Y4PyS_a5U4KMWUOOkCEX9oikcXnjJSlT/view?usp=sharing" target="_blank" class="btn-primary">📄 View Resume</a>
+</div>
+
+            <p class="contact-info">
+                Bhupalapally, Telangana- 506345, India | +91 6302510087
+            </p>
+            <div class="scroll-indicator">
+                <i data-lucide="chevron-down"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <i data-lucide="user"></i>
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+               <img src="https://raw.githubusercontent.com/sindhukodati/Sindhukodati-Portfolio/main/profile.jpg" 
+     alt="Sindhu Kodati" class="profile-photo">
+
+
+                <div class="about-text">
+                    <p>Hello! I'm Sindhu Kodati, a passionate Software Engineer with a focus on AI/ML, Cloud Computing, and Full Stack Development. Currently pursuing my B.Tech in Computer Science and Engineering at SR University, I combine academic excellence with practical experience in cutting-edge technologies.</p>                    
+                    <p>Through my internships and projects, I've gained hands-on experience in developing AI-driven solutions, cloud architectures, and full-stack applications. I'm particularly passionate about creating technology that makes a positive impact on society, as demonstrated by my projects in attendance management systems and food donation platforms.</p>
+
+                    <div class="key-highlights">
+                        <div class="highlight-item">
+                            <i data-lucide="code"></i>
+                            <h3>Full Stack Development</h3>
+                            <p>Building end-to-end web applications with modern technologies</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i data-lucide="brain"></i>
+                            <h3>AI & Machine Learning</h3>
+                            <p>Creating intelligent solutions with cutting-edge AI technologies</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i data-lucide="cloud"></i>
+                            <h3>Cloud Computing</h3>
+                            <p>Designing and implementing scalable cloud solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header">
+                <i data-lucide="graduation-cap"></i>
+                <h2>Education</h2>
+            </div>
+            <div class="education-list">
+                <div class="education-item">
+                    <h3>SR University</h3>
+                    <p class="degree">B-Tech in Computer Science and Engineering</p>
+                    <p class="grade">CGPA: 9.11</p>
+                    <p class="period">2023 - Expected 2026 | Warangal, Telangana</p>
+                </div>
+                <div class="education-item">
+                    <h3>Govt Polytechnic College</h3>
+                    <p class="degree">Diploma in Computer Science and Engineering</p>
+                    <p class="grade">CGPA: 9.93</p>
+                    <p class="period">2020 - 2023 | Warangal, Telangana</p>
+                </div>
+                <div class="education-item">
+                    <h3>Sri Nethaji High School</h3>
+                    <p class="degree">Secondary Education</p>
+                    <p class="grade">GPA: 10</p>
+                    <p class="period">2020 | Baswarajupally, Jayshankar Bhupalapally</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <i data-lucide="code-2"></i>
+                <h2>Technical Expertise</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Languages & Web</h3>
+                    <ul>
+                        <li>Python, JAVA, C, C++, C#</li>
+                        <li>AngularJS, HTML, CSS, JavaScript</li>
+                        <li>Ruby on Rails</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>AI & ML</h3>
+                    <ul>
+                        <li>TensorFlow, PyTorch</li>
+                        <li>Scikit-Learn, OpenCV</li>
+                        <li>NLP, Deep Learning, Generative AI</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Cloud & Tools</h3>
+                    <ul>
+                        <li>AWS (Lambda, EC2)</li>
+                        <li>Oracle, MySQL, MongoDB</li>
+                        <li>Linux, Jupyter Notebook, Google Colab</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <i data-lucide="briefcase"></i>
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="data:image/jpeg;base64,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" alt="Face Recognition System">
+                    <div class="project-content">
+                        <h3>Face Recognition Based Attendance Management System</h3>
+                        <p>Developed an automated attendance system using face recognition, implemented LBPH face recognition and processed face images for training and validation.</p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>LBPH</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&q=80&w=800" alt="Weather Detector">
+                    <div class="project-content">
+                        <h3>Weather Detector</h3>
+                        <p>Created a live weather app, retrieving current weather information and employed dynamic update for real-time retrieval of weather data using OpenWeatherMap API.</p>
+<div class="buttons">
+            <a href="https://sindhukodati.github.io/Weather-Detection-Website/" target="_blank" class="btn-demo">View Demo</a>
+            
+        </div>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://th.bing.com/th/id/OIP.YCLj3-SBc7bUdAzthWA2_AHaFN?w=223&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Feed the Needy">
+                    <div class="project-content">
+                        <h3>Feed the Needy</h3>
+                        <p>Developed an online food donation platform, connecting donors and receivers, achieving efficient food redistribution with real-time donation requests.</p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <i data-lucide="briefcase"></i>
+                <h2>Professional Experience</h2>
+            </div>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3>Gustovalley Technovations</h3>
+                            <p class="position">AI&ML Intern</p>
+                        </div>
+                        <p class="period">Apr 2024 - May 2024</p>
+                    </div>
+                    <p class="description">Developed AI-driven models and implemented machine learning algorithms, which enhanced data processing. Processed real-world datasets, uncovering key patterns for business.</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3>AWS Academy, EduSkills</h3>
+                            <p class="position">Cloud Computing Intern</p>
+                        </div>
+                        <p class="period">July 2024 - September 2024</p>
+                    </div>
+                    <p class="description">Gained knowledge regarding cloud deployment models and their improvement in resource utilization. Explored secure cloud storage options to allow for quicker and more secure data access.</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3>PaloAlto, EduSkills</h3>
+                            <p class="position">Cybersecurity Intern</p>
+                        </div>
+                        <p class="period">Apr 2024 - June 2024</p>
+                    </div>
+                    <p class="description">Learned security basics of networks, firewalls, and threat detection. Learned how to assess risk and respond to security threats.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <div class="section-header">
+                <i data-lucide="award"></i>
+                <h2>Certifications</h2>
+            </div>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <h3>GUVI Geek Networks</h3>
+                    <p>Generative AI</p>
+                    <p class="date">February 2025</p>
+                </div>
+                <div class="certification-card">
+                    <h3>NPTEL</h3>
+                    <p>Theory Of Computation</p>
+                    <p class="date">September 2024</p>
+                </div>
+                <div class="certification-card">
+                    <h3>Great Learning</h3>
+                    <p>Introduction To NLP</p>
+                    <p class="date">September 2024</p>
+                </div>
+                <div class="certification-card">
+                    <h3>Coursera (IBM)</h3>
+                    <p>Python for Data Science, AI & Development</p>
+                    <p class="date">March 2024</p>
+                </div>
+                <div class="certification-card">
+                    <h3>Coursera (Google)</h3>
+                    <p>Introduction to Git and GitHub</p>
+                    <p class="date">March 2024</p>
+                </div>
+                <div class="certification-card">
+                    <h3>Coursera (UCSD)</h3>
+                    <p>Data Structures</p>
+                    <p class="date">October 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container text-center">
+            <h2>Let's Connect</h2>
+            <p class="contact-description">I'm always interested in new opportunities and collaborations.</p>
+            <div class="contact-buttons">
+                <a href="tel:+916302510087" class="btn btn-primary">
+                    <i data-lucide="phone"></i>
+                    Call Me
+                </a>
+                <a href="https://www.linkedin.com/in/sindhukodati/" class="btn btn-secondary">
+                    <i data-lucide="linkedin"></i>
+                    LinkedIn
+                </a>
+                <a href="mailto:sindhukodati08@gmail.com" class="btn btn-secondary">
+                    <i data-lucide="mail"></i>
+                    Gmail
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="currentYear"></span> Sindhu Kodati. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+</html>
